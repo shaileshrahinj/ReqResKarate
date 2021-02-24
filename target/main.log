@@ -1,5 +1,5 @@
-17:04:44.171 karate.env system property was:  
-17:04:46.869 request:
+18:37:44.119 karate.env system property was:  
+18:37:46.170 request:
 1 > POST https://reqres.in/api/login
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -9,28 +9,28 @@
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
 {"email":"eve.holt@reqres.in","password":"pistol"}
 
-17:04:48.546 response time in milliseconds: 1672.11
+18:37:47.834 response time in milliseconds: 1660.42
 1 < 200
 1 < Access-Control-Allow-Origin: *
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 6268e12bf851de11-BOM
+1 < CF-RAY: 62696963db14de29-BOM
 1 < Connection: keep-alive
 1 < Content-Length: 29
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Wed, 24 Feb 2021 11:34:49 GMT
+1 < Date: Wed, 24 Feb 2021 13:07:48 GMT
 1 < Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=elEXCOdRipHe4dRbtoP2E2FZeyUwf0gC0lCR7T5%2Br8dAqSMg8dU%2FuD%2Bbb3ueEH8W%2F%2Fsvck6dGLs7PaHBa4NMZuKgO%2Bx4OocexG8%3D"}]}
+1 < Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=FbMbJCW57r4XgSu75puJGPwahJiihpUPhzoiZTh7DaNy7zpW3Htoa%2B46phr7FEcFwrZMmY8i47LU6r3aPY3Z2FDAVFTOVWQ6Vto%3D"}],"max_age":604800}
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d81b1fc063289f9d246dfafa34978430b1614166488; expires=Fri, 26-Mar-21 11:34:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Set-Cookie: __cfduid=ddae623f19442ebedad0aa1528cdd6a2d1614172068; expires=Fri, 26-Mar-21 13:07:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
-1 < cf-request-id: 08756b0f800000de11d18ed000000001
+1 < cf-request-id: 0875c0326a0000de295808a000000001
 {"token":"QpwL5tke4Pnpja7X4"}
 
-17:04:48.787 karate.env system property was:  
-17:04:48.799 request:
+18:37:48.005 karate.env system property was:  
+18:37:48.025 request:
 1 > POST https://reqres.in/api/register
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -40,150 +40,155 @@
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
 {"email":"eve.holt@reqres.in","password":"pistol"}
 
-17:04:49.454 response time in milliseconds: 653.67
+18:37:48.730 response time in milliseconds: 704.40
 1 < 200
 1 < Access-Control-Allow-Origin: *
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 6268e132180ede56-BOM
+1 < CF-RAY: 62696969b970de72-BOM
 1 < Connection: keep-alive
 1 < Content-Length: 36
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Wed, 24 Feb 2021 11:34:50 GMT
+1 < Date: Wed, 24 Feb 2021 13:07:49 GMT
 1 < Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=6jwyvy7uAIueqHGz41mPffGVlpVtWkKTg%2B9jb8qO1Mgl00nRcs7KDrs9ZY4WyGHLI8VqIBTaR7aDNZFQjXLEIP99rG%2FuJrDxNK0%3D"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=slHToZDHEhGfHB%2FqChPRfGUeyUeoSo%2FJfmDhYLlY0tolK2XmlK0iu%2Fwhrcu4vbYjgHXaYH4oN4zV%2FlAArMv3iwNKtvKxsFbW6kI%3D"}]}
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d67309ecb36e948ef2a611f7d4ccda0131614166489; expires=Fri, 26-Mar-21 11:34:49 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Set-Cookie: __cfduid=dce4c2c736b9a91a2a09c30df5ef3a0011614172069; expires=Fri, 26-Mar-21 13:07:49 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
-1 < cf-request-id: 08756b13510000de56e8223000000001
+1 < cf-request-id: 0875c0360f0000de72c3afa000000001
 {"id":4,"token":"QpwL5tke4Pnpja7X4"}
 
-17:04:49.519 karate.env system property was:  
-17:04:49.545 request:
+18:37:48.791 karate.env system property was:  
+18:37:48.807 request:
 1 > GET https://reqres.in/api/users?page=1
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
 
-17:04:49.811 response time in milliseconds: 262.39
+18:37:49.706 response time in milliseconds: 893.98
 1 < 200
 1 < Access-Control-Allow-Origin: *
-1 < Age: 4667
-1 < CF-Cache-Status: HIT
-1 < CF-RAY: 6268e1368fe6de7a-BOM
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 6269696eec782e3b-BOM
 1 < Cache-Control: max-age=14400
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Wed, 24 Feb 2021 11:34:50 GMT
+1 < Date: Wed, 24 Feb 2021 13:07:50 GMT
 1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < NEL: {"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=iUcqNjkHxEbStK1M2exx79v2LyAP8SQUNZmA1aBWNfXdKAn6zxvqqx08yorNjqM%2BDe6XNyLZ%2FDWQL4s8xC5YDUFAlSd1MsHeT%2Bg%3D"}]}
+1 < Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2FYDnrOxG1OBouKbl0oWFPOhHJJJ%2FbH9QhpErqOv0sEpgQ4NroEU39X5V8hudwqe4t1iippW8ZfVz8deyHbbbGutFcgjQQlN8DJo%3D"}]}
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d77b8b3d860d8098e78517b734147e2671614166490; expires=Fri, 26-Mar-21 11:34:50 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Set-Cookie: __cfduid=d7f52d85da195e7bc9bd9529755c3a6261614172070; expires=Fri, 26-Mar-21 13:07:50 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 < Transfer-Encoding: chunked
 1 < Vary: Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
-1 < cf-request-id: 08756b16190000de7a8cadb000000001
+1 < cf-request-id: 0875c0395700002e3b1f33b000000001
 {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 
-17:04:49.843 karate.env system property was:  
-17:04:49.859 request:
+18:37:49.748 karate.env system property was:  
+18:37:49.759 request:
 1 > GET https://reqres.in/api/users?page=1
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
 
-17:04:50.174 response time in milliseconds: 313.60
+18:37:50.118 response time in milliseconds: 356.92
 1 < 200
 1 < Access-Control-Allow-Origin: *
-1 < Age: 5407
+1 < Age: 1367
 1 < CF-Cache-Status: HIT
-1 < CF-RAY: 6268e138f87f31e1-BOM
+1 < CF-RAY: 626969750a2cde31-BOM
 1 < Cache-Control: max-age=14400
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Wed, 24 Feb 2021 11:34:51 GMT
+1 < Date: Wed, 24 Feb 2021 13:07:51 GMT
 1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < NEL: {"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=BrYUMRjdm%2Bf7uoKsh4BHLuqQeUSvBclxVE%2BONTeV%2B8yF5CS%2FgmpBO151P%2F6Z5jM1M2Guvr0o%2BbUebs2AVCpyn7vO1YOHhh2tzYw%3D"}]}
+1 < NEL: {"max_age":604800,"report_to":"cf-nel"}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=9Yn5tExyh2C%2FriMtm01ie2snjrQlnmQKti7lePmil8iGNjlAI0%2FnDWNtLgxuqbckgMUnNDFQKw8VgBTiVk4rVb6fgsVV2S%2FTIso%3D"}],"group":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d8eb1fdc84526f068634572dd0db869ad1614166491; expires=Fri, 26-Mar-21 11:34:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Set-Cookie: __cfduid=d608c858b426c5a9fb9f1ded1310995a31614172071; expires=Fri, 26-Mar-21 13:07:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 < Transfer-Encoding: chunked
 1 < Vary: Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
-1 < cf-request-id: 08756b179e000031e16fbeb000000001
+1 < cf-request-id: 0875c03d200000de3150130000000001
 {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 
-17:04:50.237 [print] George
-17:04:50.259 request:
+18:37:50.177 [print] George
+18:37:50.194 request:
 2 > GET https://reqres.in/api/users/1
 2 > Accept-Encoding: gzip,deflate
 2 > Connection: Keep-Alive
-2 > Cookie: __cfduid=d8eb1fdc84526f068634572dd0db869ad1614166491
+2 > Cookie: __cfduid=d608c858b426c5a9fb9f1ded1310995a31614172071
 2 > Host: reqres.in
 2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
 
-17:04:50.594 response time in milliseconds: 333.50
+18:37:50.436 response time in milliseconds: 240.46
 2 < 200
 2 < Access-Control-Allow-Origin: *
-2 < Age: 4277
+2 < Age: 1366
 2 < CF-Cache-Status: HIT
-2 < CF-RAY: 6268e13b898dde21-BOM
+2 < CF-RAY: 62696976fcbade0d-BOM
 2 < Cache-Control: max-age=14400
 2 < Connection: keep-alive
 2 < Content-Type: application/json; charset=utf-8
-2 < Date: Wed, 24 Feb 2021 11:34:51 GMT
+2 < Date: Wed, 24 Feb 2021 13:07:51 GMT
 2 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
 2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 2 < NEL: {"report_to":"cf-nel","max_age":604800}
-2 < Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=U46d0BlO4%2Fd53kVt0ANH%2BcptJoLNJuComHanXbj9EMKautnpo6e8dQA2nSGiSalsz%2BojEDYbtNhf2eg3iFtWxgRqaM6qM0usYig%3D"}]}
+2 < Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=3lXZxvgf3KWyCGtjSr5TK1hP%2BMZhWbkqfE7ebJGrDV1CeTw9yrglAgWXzmxblF4HbADDHkYXw4TpghMf36z9T9j1zrwBEDB%2BlYA%3D"}]}
 2 < Server: cloudflare
 2 < Transfer-Encoding: chunked
 2 < Vary: Accept-Encoding
 2 < Via: 1.1 vegur
 2 < X-Powered-By: Express
-2 < cf-request-id: 08756b19380000de21a2011000000001
+2 < cf-request-id: 0875c03e5d0000de0d7db00000000001
 {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 
-17:04:50.614 karate.env system property was:  
-17:04:50.631 request:
+18:37:50.464 karate.env system property was:  
+18:37:50.477 request:
 1 > GET https://reqres.in/api/users/23
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
 
-17:04:51.233 response time in milliseconds: 600.84
+18:37:51.290 response time in milliseconds: 812.27
 1 < 404
+1 < Access-Control-Allow-Origin: *
 1 < CF-Cache-Status: EXPIRED
-1 < CF-RAY: 6268e13d7f5ade15-BOM
+1 < CF-RAY: 62696979ee292e17-BOM
 1 < Cache-Control: max-age=14400
 1 < Connection: keep-alive
 1 < Content-Length: 2
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Wed, 24 Feb 2021 11:34:52 GMT
+1 < Date: Wed, 24 Feb 2021 13:07:52 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < NEL: {"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Iyb%2BshAaDnjfoKNvrEnfCh8IO1G3GuD6oEHtTOn58lumgRT%2Fy9QHTMQZCAkoy5gJZguBkZaC7WyknrSLuiAFnefxZHeL90rXDPw%3D"}]}
+1 < NEL: {"max_age":604800,"report_to":"cf-nel"}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=RXYOq3vD3H6caLkBnf4OJ2pmLifuf1NAzKAr5pFNImzRSp72%2FoK6vQSuxOypchoISfSHuKgX5%2FiUzwMfiV0wpFyhzWCjmsD1rag%3D"}],"max_age":604800,"group":"cf-nel"}
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d13aaf63bae459981325adba62484a79d1614166491; expires=Fri, 26-Mar-21 11:34:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Set-Cookie: __cfduid=de5fbf4830151c601e7acf8bda6b0c7051614172071; expires=Fri, 26-Mar-21 13:07:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 < Vary: Accept-Encoding
-1 < access-control-allow-origin: *
-1 < cf-request-id: 08756b1a670000de152c8d6000000001
-1 < etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
-1 < via: 1.1 vegur
-1 < x-powered-by: Express
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0875c0403500002e170a249000000001
 {}
 
-}
+
+{}
+
+4a07000000001
+{}
+
+
 
 eport_to":"cf-nel"}
 1 < Pragma: no-cache
