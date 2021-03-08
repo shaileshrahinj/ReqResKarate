@@ -26,10 +26,10 @@ public class EntireParellel {
 	 * TestBase.beforeClass(); }
 	 */
 	 
-    
+    //user entireParallel for cucumber reporting
     @Test
     public void testParallel() {
-        System.setProperty("karate.env", "services"); // ensure reset if other tests (e.g. mock) had set env in CI
+      //  System.setProperty("karate.env", "services"); // ensure reset if other tests (e.g. mock) had set env in CI
         Results results = Runner.path("classpath:services").tags("~@ignore").parallel(5);
         generateReport(results.getReportDir());
         assertTrue(results.getErrorMessages(), results.getFailCount() == 0);        

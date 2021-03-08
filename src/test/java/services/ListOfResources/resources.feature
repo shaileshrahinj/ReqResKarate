@@ -15,7 +15,7 @@ Background:
    # And match response.data contains {id : '#notnull', first_name:'#string'}
    
    
-    Scenario: Single resource	
+    Scenario: Single resource verification	
     
     Given path 'unknown'
     When method get
